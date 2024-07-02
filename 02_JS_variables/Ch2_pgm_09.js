@@ -6,11 +6,12 @@ var _underscore56;
 var StartWithCapital;
 var z5;
 
-var 999;
-var 39Steps;
-var &nope;
-var single words only;
-var yield;
+// Invalid variable names - causing errors
+var 999;  // Invalid: Cannot start with a number
+var 39Steps;  // Invalid: Cannot start with a number
+var &nope;  // Invalid: Cannot use special characters except $ and _
+var single words only;  // Invalid: Cannot have spaces
+var yield;  // Invalid: Reserved keyword in JavaScript
 
 
 
