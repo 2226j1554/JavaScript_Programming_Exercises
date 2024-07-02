@@ -18,11 +18,20 @@ console.log("Way to go!");
  * Add code to:
  *
  * 1) Tell the player of a successful splat
- *
- * 2) Add 100 to the player's score
- *
- * 3) Show the new score
- *
- * 4) Display a message of congratulations
- *
  */
+console.log("You splatted a kumquat!");
+
+/* 
+ * 2) Add 100 to the player's score
+ */
+score = score + 100;
+
+/* 
+ * 3) Show the new score
+ */
+console.log("New score after splatting a kumquat: " + score);
+
+/* 
+ * 4) Display a message of congratulations
+ */
+console.log("Congratulations!");
