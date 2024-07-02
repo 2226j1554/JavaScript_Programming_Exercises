@@ -22,3 +22,5 @@ score = 100;
  *    Repeat steps 1, 2 and 3.
  *
  */
+// Display the current value of score in the console
+console.log(score);
