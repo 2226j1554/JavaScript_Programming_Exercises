@@ -14,3 +14,14 @@ var score;
  * 3) Declare two more variables.
  *
  */
+// Attempting to delete the semicolon would result in an error:
+// SyntaxError: Unexpected token 'score'
+
+// Add the semicolon back after the word score
+var score;
+
+// Declare two more variables
+var playerName;
+var level;
+
+// Now we have three variables declared: score, playerName, and level
