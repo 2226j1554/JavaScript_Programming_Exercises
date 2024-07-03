@@ -9,11 +9,22 @@ var post = {
 };
 
 
+// Display some properties of the post
+console.log("Post Title: " + post.title);
+console.log("Author: " + post.author);
+console.log("Created Date: " + post.created);
+console.log("Body:\n" + post.body);
 
-/* Further Adventures
- *
- * 1) Display some of the properties.
- *
- * 2) Add a second post.
- *
- */
+// Add a second post
+var post2 = {
+    id: 2,
+    title: "Exploring Martian Landscape",
+    author: "Pathfinder",
+    created: "2016-03-10",
+    body: "Rover images reveal stunning landscapes and rock formations on Mars."
+};
+
+console.log("\nSecond Post Title: " + post2.title);
+console.log("Author: " + post2.author);
+console.log("Created Date: " + post2.created);
+console.log("Body:\n" + post2.body);
