@@ -1,15 +1,15 @@
 // Creating an empty object
 
-var book;
-
-book = {};
+var book = {};
 
 
 /* Further Adventures
  *
  * 1) Log book to the console.
- *
- * 2) Place your cursor between the curly braces
+ */
+console.log(book);
+
+/* 2) Place your cursor between the curly braces
  *    in the code above and press enter.
  *    JS Bin should add an empty line between
  *    the braces. You can add more empty lines.
@@ -20,3 +20,5 @@ book = {};
  *    to the outcome.
  *
  */
+console.log("\nAfter adding empty lines:");
+console.log(book);
