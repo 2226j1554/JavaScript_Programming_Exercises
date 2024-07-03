@@ -1,16 +1,16 @@
-// Using dot notation to update a property
+var player1; // Declaring player1 variable
 
-var player1;
-
+// Initializing player1 object with properties
 player1 = {
     name: "Max",
     attempted: 0,
     correct: 0
 };
 
-player1.attempted = 1;
-player1.correct = 1;
-player1.score = 50;
+// Updating properties of player1 using dot notation
+player1.attempted = 1; // Update attempted to 1
+player1.correct = 1;   // Update correct to 1
+player1.score = 50;    // Add score property and set it to 50
 
 
 
